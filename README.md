@@ -3,7 +3,9 @@
   - [Module 1](#module-1)
     - [Cloud Computing](#cloud-computing)
     - [Benefits of cloud computing](#benefits-of-cloud-computing)
+  - [Module 2](#module-2)
   - [General QnA](#general-qna)
+
 
 # Module 1
 ### Cloud Computing
@@ -33,6 +35,9 @@ Pay only what you use & No need for infrastructure setup.
   - Easier for you to develop and deploy applications
 - Go global in minutes
   - Deploy applications to customers around the world quickly, while providing them with low-latency
+
+# Module 2
+
 
 # General QnA
 
