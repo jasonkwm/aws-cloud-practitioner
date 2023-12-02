@@ -4,6 +4,7 @@
     - [Cloud Computing](#cloud-computing)
     - [Benefits of cloud computing](#benefits-of-cloud-computing)
   - [Module 2](#module-2)
+    - [Amazon EC2](#amazon-ec2)
   - [General QnA](#general-qna)
 
 
@@ -13,16 +14,17 @@
 
 #### Deployment models for cloud computing
 When selecting a cloud strategy, a company must consider factors such as required cloud application components, preferred resource management tools, and any legacy IT infrastructure requirements.
-- **Cloud-based Deployment**
+- ##### Cloud-based Deployment
   - Run all parts of the application in the cloud
   - Migrate existing applications to the cloud
   - Design and build new applications in the cloud
-- **On-premises Deployment**
+- ##### On-premises Deployment
   - Deploy resources by using virtualization and resource management tools
   - Increase resource utilization by using application management and virtualization technologies
-- **Hybrid Deployment**
+- ##### Hybrid Deployment
   - Connect cloud-based resources to on-premises infrastructure
   - Integrate cloud-based resources with legacy IT applications
+
 ### Benefits of cloud computing
 Pay only what you use & No need for infrastructure setup.
 - Trade upfront expenses for variable expenses
@@ -37,6 +39,37 @@ Pay only what you use & No need for infrastructure setup.
   - Deploy applications to customers around the world quickly, while providing them with low-latency
 
 # Module 2
+
+### Amazon EC2
+
+A Virtual Machine with customizable hardware(Vertical Scaling).
+Amazon Elastic Compute Cloud (Amazon EC2) provides secure, resizable compute capacity in the cloud as Amazon EC2 instances.
+
+##### With traditional on-premises resources:
+- Spend money upfront to purchase hardware.
+- Install the servers in your physical data center.
+- Make all the necessary configurations.
+
+##### With an Amazon EC2 instance:
+- Provision and launch an Amazon EC2 instance within minutes.
+- Stop using it when you have finished running a workload.
+- Pay only for the compute time you use when an instance is running, not when it is stopped or terminated.
+- Pay only for server capacity that you need or want.
+
+#### How Amazon EC2 works
+
+##### Launch
+- Select a template with basic configuration for your EC2 instance.
+- Configuration could include `OS, Application Server, or Application`.
+- Select Instance type, which is the specific hardware configuration.
+
+##### Connect
+- There are several ways to connect to the instance.
+- Programs and applications have multiple methods to connect directly to the instance and exchange data.
+- Can also connect to the instance by logging in and accessing the computer desktop.
+
+#### Use
+- Run commands, install software, add storage, copy and organize files and more.
 
 
 # General QnA
