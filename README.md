@@ -6,6 +6,7 @@
   - [Module 2](#module-2)
     - [Amazon EC2](#amazon-ec2)
     - [EC2 Instances Types](#ec2-instances-type)
+    - [EC2 Pricing](#ec2-pricing)
   - [General QnA](#general-qna)
 
 
@@ -100,6 +101,18 @@ Designed to deliver tens of thousands of low-latency, random IOPS to application
 In computing, the term input/output operations per second (IOPS) is a metric that measures the performance of a storage device.
 - Application that has a high IOPS requirement
 - Distributed file systems, data warehousing applications, and high-frequency online transaction processing (OLTP) systems
+
+### EC2 Pricing
+
+#### On-Demand
+
+#### Instance Savings Plans
+
+#### Reserved Instances
+
+#### Spot Instances
+
+#### Dedicated Hosts
 
 
 # General QnA
