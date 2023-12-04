@@ -56,16 +56,16 @@ Balance of compute, memory, and networking resources.
 
 #### Compute-optimized instances
 
-(CPU)  
-Compute-optimized applications are ideal for
+Compute-optimized applications are ideal for  
+(CPU)
 
 -   High-performance web servers, compute-intensive applications servers, and dedicated gaming server
 -   Batch processing workloads that require processing many transactions in a single group
 
 #### Memory-optimized instances
 
-(RAM)  
-Designed to deliver fast performance for workloads that process large datasets in memory.
+Designed to deliver fast performance for workloads that process large datasets in memory.  
+(RAM)
 
 -   Workload that requires large amounts of data to be preloaded before running an application
 -   High-performance database
@@ -73,19 +73,19 @@ Designed to deliver fast performance for workloads that process large datasets i
 
 #### Accelerated computing instances
 
-(GPU, TPU, DPU)  
 Hardware accelerators, or coprocessors, perform some functions more efficiently than is possible in software running on CPUs.  
 In computing, a hardware accelerator is a component that can expedite data processing.
+(GPU, TPU, DPU)
 
 -   Floating-point number calculations, graphics processing, and data pattern matching
 -   Ideal for workloads such as graphics applications, game streaming, and application streaming
 
 #### Storage-optimized instances
 
-(HDD, SSD)  
 Designed for workloads that require high, sequential read and write access to large datasets on local storage.  
 Designed to deliver tens of thousands of low-latency, random IOPS to applications.  
 In computing, the term `input/output operations per second (IOPS)` is a metric that measures the performance of a storage device.
+(HDD, SSD)
 
 -   Application that has a high IOPS requirement
 -   Distributed file systems, data warehousing applications, and high-frequency online transaction processing (OLTP) systems
