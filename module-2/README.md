@@ -17,6 +17,9 @@
 -   [Scaling Amazon EC2](#scaling-amazon-ec2)
     -   [Amazon EC2 Auto Scaling](#amazon-ec2-auto-scaling)
 -   [Elastic Load Balancing](#elastic-load-balancing)
+-   [Messaging and Queuing](#messaging-and-queuing)
+    -   [Amazon Simple Notification Service (Amazon SNS)](#amazon-simple-notification-service-amazon-sns)
+-   [Additional Compute Services](#additional-compute-services)
 
 ## Amazon EC2
 
@@ -183,5 +186,17 @@ The following Auto Scaling group has a minimum size of one instance, a desired c
 - As you add or remove Amazon EC2 instances in response to the amount of incoming traffic, these `requests route to the load balancer first`
 - The requests are spread across multiple resources that will handle them
 - Elastic Load Balancing and Amazon EC2 Auto Scaling work together to help ensure applications runs smoothly
-
 <img width="401" alt="elb" src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/f160dcb8-62d4-4722-9baf-bfe3916e6e8e">
+
+## Messaging and Queuing
+When designing applications on AWS, you can take a microservices approach with services and components that fulfill different functions.  
+Two services facilitate application integration: `Amazon Simple Notification Service` (Amazon SNS) and `Amazon Simple Queue Service` (Amazon SQS).
+
+### Amazon Simple Notification Service (Amazon SNS)
+- Publish/subscribe service, a publisher publishes messages to subscribers
+- `Subscribers` can be web servers, email addresses, `AWS Lambda functions`, or several other options.
+
+### Amazon Simple Queue Service (Amazon SQS)
+- Message queuing service
+- `Send, store, and receive` messages between software components, without losing messages or requiring other services to be available
+- An application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue
