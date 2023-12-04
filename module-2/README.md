@@ -47,38 +47,42 @@ When selecting an instance type, consider the specific needs of your workloads a
 
 #### General purpose instances
 
-(Basic Computer/VM Package)
+(Basic Computer/VM Package)  
 Balance of compute, memory, and networking resources.
 
 -   Application servers, gaming servers
 -   Backend servers for enterprise applications
 -   Small and medium databases
 
-#### Compute-optimized instances (CPU)
+#### Compute-optimized instances
 
+(CPU)  
 Compute-optimized applications are ideal for
 
 -   High-performance web servers, compute-intensive applications servers, and dedicated gaming server
 -   Batch processing workloads that require processing many transactions in a single group
 
-#### Memory-optimized instances (RAM)
+#### Memory-optimized instances
 
+(RAM)  
 Designed to deliver fast performance for workloads that process large datasets in memory.
 
 -   Workload that requires large amounts of data to be preloaded before running an application
 -   High-performance database
 -   Performing real-time processing of a large amount of unstructured data
 
-#### Accelerated computing instances (GPU, TPU, DPU)
+#### Accelerated computing instances
 
+(GPU, TPU, DPU)  
 Hardware accelerators, or coprocessors, perform some functions more efficiently than is possible in software running on CPUs.  
 In computing, a hardware accelerator is a component that can expedite data processing.
 
 -   Floating-point number calculations, graphics processing, and data pattern matching
 -   Ideal for workloads such as graphics applications, game streaming, and application streaming
 
-#### Storage-optimized instances (HDD, SSD)
+#### Storage-optimized instances
 
+(HDD, SSD)  
 Designed for workloads that require high, sequential read and write access to large datasets on local storage.  
 Designed to deliver tens of thousands of low-latency, random IOPS to applications.  
 In computing, the term `input/output operations per second (IOPS)` is a metric that measures the performance of a storage device.
