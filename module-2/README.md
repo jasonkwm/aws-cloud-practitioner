@@ -16,6 +16,7 @@
     -   [Dedicated Hosts](#dedicated-hosts)
 -   [Scaling Amazon EC2](#scaling-amazon-ec2)
     -   [Amazon EC2 Auto Scaling](#amazon-ec2-auto-scaling)
+-   [Elastic Load Balancing](#elastic-load-balancing)
 
 ## Amazon EC2
 
@@ -169,9 +170,18 @@ Auto Scaling component includes `Groups`, `Configuration Template`, and `Scaling
 - Create collections of EC2 instances, called Auto Scaling groups
 - Specify the `minimum number` of instances in each Auto Scaling group, Amazon EC2 Auto Scaling ensures that your group never goes below this size
 - Specify the `maximum number` of instances in each Auto Scaling group, Amazon EC2 Auto Scaling ensures that your group never goes above this size
-- Specify the `desired capacity`, either when you create the group or at any time thereafter, Amazon EC2 Auto Scaling ensures that your group has this many instances. Defaults to minimum if number is not specified
+- Specify the `desired capacity`, either when you create the group or at any time thereafter, Amazon EC2 Auto Scaling ensures that your group has this many instances. Defaults to minimum if the number is not specified
 - Specify scaling policies, Amazon EC2 Auto Scaling can launch or terminate instances as demand on your application increases or decreases
-- Scaling policies adjust the number of instances, within your minimum and maximum number of instances, based on the criteria that you specify.
+- Scaling policies adjust the number of instances, within your minimum and maximum number of instances, based on the criteria that you specify
 
 The following Auto Scaling group has a minimum size of one instance, a desired capacity of two instances, and a maximum size of four instances.  
 ![as-group-diagram](https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/c92e6da5-d0ac-40d1-84b5-a640af173170)
+
+## Elastic Load Balancing
+- A load balancer acts as a `single point of contact for all incoming web traffic` to your `Auto Scaling group`
+- `Automatically distributes` incoming application traffic across multiple resources, such as Amazon EC2 instances
+- As you add or remove Amazon EC2 instances in response to the amount of incoming traffic, these `requests route to the load balancer first`
+- The requests are spread across multiple resources that will handle them
+- Elastic Load Balancing and Amazon EC2 Auto Scaling work together to help ensure applications runs smoothly
+
+<img width="401" alt="elb" src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/f160dcb8-62d4-4722-9baf-bfe3916e6e8e">
