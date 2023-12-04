@@ -35,7 +35,7 @@ Amazon Elastic Compute Cloud (Amazon EC2) provides secure, resizable compute cap
 -   #### Use
     -   Run commands, install software, add storage, copy and organize files, and more.
 
-### EC2 Instances Type
+## EC2 Instances Type
 
 There are 5 categories of Instance Type.  
 When selecting an instance type, consider the specific needs of your workloads and applications. This might include requirements for compute, memory, or storage capabilities.
@@ -80,7 +80,7 @@ In computing, the term input/output operations per second (IOPS) is a metric tha
 -   Application that has a high IOPS requirement
 -   Distributed file systems, data warehousing applications, and high-frequency online transaction processing (OLTP) systems
 
-### EC2 Pricing
+## EC2 Pricing
 
 #### On-Demand
 

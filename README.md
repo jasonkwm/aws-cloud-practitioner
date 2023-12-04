@@ -4,9 +4,6 @@
     -   [Cloud Computing](#cloud-computing)
     -   [Benefits of cloud computing](#benefits-of-cloud-computing)
 -   [Module 2](https://github.com/jasonkwm/aws-cloud-practitioner/tree/main/module-2)
-    -   [Amazon EC2](#amazon-ec2)
-    -   [EC2 Instances Types](#ec2-instances-type)
-    -   [EC2 Pricing](#ec2-pricing)
 -   [General QnA](https://github.com/jasonkwm/aws-cloud-practitioner/tree/main/QnA)
 
 # Module 1
