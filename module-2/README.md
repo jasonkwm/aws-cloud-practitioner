@@ -2,6 +2,11 @@
 
 -   [Amazon EC2](#amazon-ec2)
 -   [EC2 Instances Types](#ec2-instances-type)
+    -   [General purpose instances](#general-purpose-instances)
+    -   [Compute-optimized instances](#compute-optimized-instances)
+    -   [Memory-optimized instances](#memory-optimized-instances)
+    -   [Accelerated computing instances](#accelerated-computing-instances)
+    -   [Storage-optimized instances](#storage-optimized-instances)
 -   [EC2 Pricing](#ec2-pricing)
 
 ## Amazon EC2
@@ -40,8 +45,9 @@ Amazon Elastic Compute Cloud (Amazon EC2) provides secure, resizable compute cap
 There are 5 categories of Instance Type.  
 When selecting an instance type, consider the specific needs of your workloads and applications. This might include requirements for compute, memory, or storage capabilities.
 
-#### General purpose instances (Basic Computer Package)
+#### General purpose instances
 
+(Basic Computer/VM Package)
 Balance of compute, memory, and networking resources.
 
 -   Application servers, gaming servers
@@ -83,35 +89,39 @@ In computing, the term `input/output operations per second (IOPS)` is a metric t
 ## EC2 Pricing
 
 ### On-Demand
-- Short-term, irregular workloads that cannot be interrupted
-- No upfront costs or minimum contracts apply
-- Instances run continuously until you stop them
-- Developing and testing applications and running applications that have unpredictable usage patterns
-- Not recommended for workloads that last a year or longer
-- Better cost savings with **Reserved Instances** for longer usage
+
+-   Short-term, irregular workloads that cannot be interrupted
+-   No upfront costs or minimum contracts apply
+-   Instances run continuously until you stop them
+-   Developing and testing applications and running applications that have unpredictable usage patterns
+-   Not recommended for workloads that last a year or longer
+-   Better cost savings with **Reserved Instances** for longer usage
 
 ### Reserved Instances
+
 Reserved Instances come in 1-year or 3-year terms.  
 There are two available types of Reserved Instances:
-- **Standard Reserved Instances**:
-    - Good fit if you know the EC2 instance type and size you need
-    - And in which AWS Region you plan to run them
-    - Standard Reserved Instances require you to state the following qualifications:
-        - Instance type and size: For example, `m5.xlarge`
-        - Platform description (operating system): For example, `Microsoft Windows Server or Red Hat Enterprise Linux`
-        - Tenancy: Default tenancy or dedicated tenancy
-        - Option to specify an `Availability Zone` for your `EC2 Reserved Instances`
-- **Convertible Reserved Instances**:
-    - Run EC2 Instances with different Availability Zones or different instance types
-    - Cost more when you require flexibility to run your EC2 instances
+
+-   **Standard Reserved Instances**:
+    -   Good fit if you know the EC2 instance type and size you need
+    -   And in which AWS Region you plan to run them
+    -   Standard Reserved Instances require you to state the following qualifications:
+        -   Instance type and size: For example, `m5.xlarge`
+        -   Platform description (operating system): For example, `Microsoft Windows Server or Red Hat Enterprise Linux`
+        -   Tenancy: Default tenancy or dedicated tenancy
+        -   Option to specify an `Availability Zone` for your `EC2 Reserved Instances`
+-   **Convertible Reserved Instances**:
+    -   Run EC2 Instances with different Availability Zones or different instance types
+    -   Cost more when you require flexibility to run your EC2 instances
 
 At the end of your Reserved Instance term you are charged On-Demand rates until you do one of the following:
 
-- Terminate the instance.
-- Purchase a new Reserved Instance that matches the instance attributes (instance family and size, Region, platform, and tenancy).
+-   Terminate the instance.
+-   Purchase a new Reserved Instance that matches the instance attributes (instance family and size, Region, platform, and tenancy).
 
 #### Instance Savings Plans
-- 
+
+-
 
 #### Spot Instances
 
