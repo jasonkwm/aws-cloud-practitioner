@@ -19,6 +19,7 @@
 -   [Elastic Load Balancing](#elastic-load-balancing)
 -   [Messaging and Queuing](#messaging-and-queuing)
     -   [Amazon Simple Notification Service (Amazon SNS)](#amazon-simple-notification-service-amazon-sns)
+    -   [Amazon Simple Queue Service (Amazon SQS)](#amazon-simple-queue-service-amazon-sqs)
 -   [Additional Compute Services](#additional-compute-services)
 
 ## Amazon EC2
