@@ -14,8 +14,8 @@
     -   [Instance Savings Plans](#instance-savings-plans)
     -   [Spot Instances](#spot-instances)
     -   [Dedicated Hosts](#dedicated-hosts)
--   [Scaling Amazon EC2](#scaling-amazing-ec2)
-    -   
+-   [Scaling Amazon EC2](#scaling-amazon-ec2)
+    -   [Amazon EC2 Auto Scaling](#amazon-ec2-auto-scaling)
 
 ## Amazon EC2
 
@@ -152,7 +152,26 @@ Utilizing unused EC2 instances.
 
 ### Dedicated Hosts
 Have a physical server dedicated to you
-- Physical servers with Amazon EC2 instance capacity that is fully dedicated to your use
+- Physical servers with Amazon EC2 instance capacity that is `fully dedicated to your use`
 - Use your existing `per-socket, per-core, or per-VM software licenses` to help maintain license compliance
 - Purchase `On-Demand Dedicated Hosts` or `Dedicated Hosts Reservations`
 - `Most Expensive`
+
+## Scaling Amazon EC2
+Automatically add or remove Amazon EC2 instances in response to changing application demand.  
+Maintain a greater sense of `application availability` by automatically scaling your instances in and out as needed.  
+You can use two approaches: **dynamic scaling** and **predictive scaling**
+- **Dynamic scaling** `responds` to changing demand
+- **Predictive scaling** `automatically schedules` the right number of Amazon EC2 instances based on predicted demand.
+
+### Amazon EC2 Auto Scaling
+Auto Scaling component includes `Groups`, `Configuration Template`, and `Scaling Options`
+- Create collections of EC2 instances, called Auto Scaling groups
+- Specify the `minimum number` of instances in each Auto Scaling group, Amazon EC2 Auto Scaling ensures that your group never goes below this size
+- Specify the `maximum number` of instances in each Auto Scaling group, Amazon EC2 Auto Scaling ensures that your group never goes above this size
+- Specify the `desired capacity`, either when you create the group or at any time thereafter, Amazon EC2 Auto Scaling ensures that your group has this many instances. Defaults to minimum if number is not specified
+- Specify scaling policies, Amazon EC2 Auto Scaling can launch or terminate instances as demand on your application increases or decreases
+- Scaling policies adjust the number of instances, within your minimum and maximum number of instances, based on the criteria that you specify.
+
+The following Auto Scaling group has a minimum size of one instance, a desired capacity of two instances, and a maximum size of four instances.  
+![as-group-diagram](https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/c92e6da5-d0ac-40d1-84b5-a640af173170)
