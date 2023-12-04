@@ -4,7 +4,7 @@
     -   [Cloud Computing](#cloud-computing)
     -   [Benefits of cloud computing](#benefits-of-cloud-computing)
 -   [Module 2](./module-2)
--   [General QnA](https://github.com/jasonkwm/aws-cloud-practitioner/tree/main/QnA)
+-   [General QnA](./QnA)
 
 # Module 1
 
