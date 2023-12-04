@@ -1,4 +1,10 @@
-### Amazon EC2
+# Table of Content
+
+-   [Amazon EC2](#amazon-ec2)
+-   [EC2 Instances Types](#ec2-instances-type)
+-   [EC2 Pricing](#ec2-pricing)
+
+## Amazon EC2
 
 A Virtual Machine with customizable hardware(Vertical Scaling).
 Amazon Elastic Compute Cloud (Amazon EC2) provides secure, resizable compute capacity in the cloud as Amazon EC2 instances.
