@@ -4,6 +4,7 @@
     -   [Cloud Computing](#cloud-computing)
     -   [Benefits of cloud computing](#benefits-of-cloud-computing)
 -   [Module 2](./module-2)
+    -   [EC2 Instance Type](./module-2#ec2-instances-type)
 -   [General QnA](./QnA)
 
 # Module 1
