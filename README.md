@@ -4,7 +4,19 @@
     -   [Cloud Computing](#cloud-computing)
     -   [Benefits of cloud computing](#benefits-of-cloud-computing)
 -   [Module 2](./module-2)
+    -   [Amazon EC2](./module-2#amazon-ec2)
     -   [EC2 Instance Type](./module-2#ec2-instances-type)
+    -   [EC2 Pricing](./module-2#ec2-pricing)
+    -   [Scaling Amazon EC2](./module-2#scaling-amazon-ec2)
+    -   [Elastic Load Balancing](./module-2#elastic-load-balancing)
+    -   [Message and Queuing](./module-2#message-and-queuing)
+    -   [Additional Compute Services](./module-2#additional-compute-services)
+-   [Module 3](./module-3)
+    -   [AWS Global Infrastructure](./module-3#aws-global-infrastructure)
+    -   [Edge Location CDN](./module-3#edge-location-cdn)
+    -   [How to Provision AWS Resources](./module-3#how-to-provision-aws-resources)
+-   [Module 4](./module-4)
+    -   
 -   [General QnA](./QnA)
 
 # Module 1
