@@ -12,6 +12,9 @@
     - [Stateless packet filtering](#stateless-packet-filtering)
   - [Security groups](#security-groups)
     - [Stateful packet filtering](#stateful-packet-filtering)
+- [Global Networking](#global-networking)
+  - [Domain Name System (DNS)](#domain-name-system-dns)
+  - [Amazon Route 53](#amazon-route-53)
 # Connectivity to AWS
 
 ## Amazon Virtual Private Cloud (Amazon VPC)
@@ -45,9 +48,8 @@ Amazons habit of renaming things unnecessarily basically a `VPN`
 -  A `Private Subnet` doesn't have a route to an internet gateway
 
 ## Network traffic in a VPC
-When a customer requests data from an application hosted in the AWS Cloud, this request is sent as a packet. A `packet` is a unit of data sent over the internet or a network. It enters into a VPC through an internet gateway.  
+When a customer requests data from an application hosted in the AWS Cloud, this request is sent as a packet. A `packet` is a unit of data sent over the internet or a network. It enters into a VPC through an internet gateway. 
 The VPC component that checks packet permissions for subnets is a [network access control list (ACL)](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html).
-
 
 ## Network ACLs
 Network Access Control List is a virtual firewall that controls inbound and outbound traffic at the subnet level.
@@ -69,3 +71,27 @@ Security groups perform stateful packet filtering. They remember previous decisi
 
 **With both network ACLs and security groups, you can configure custom rules for the traffic in your VPC**  
 <img width="600" alt=" acl and security" src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/fe19e261-7a6e-4166-b093-d6ce01e22250">
+
+# Global Networking
+
+## Domain Name System (DNS)
+You can think of DNS as being the phone book of the internet. DNS resolution is the process of translating a domain name to an IP address. 
+1. When you enter the domain name into your browser, this request is sent to a customer DNS resolver
+2. The customer DNS resolver asks the company DNS server for the IP address that corresponds to AnyCompany’s website
+3. The company DNS server responds by providing the IP address for AnyCompany’s website, 192.0.2.0  
+<img width="600" alt="dns" src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/804a18da-a4da-4fb6-a127-4f5940cb4d18">
+
+## Amazon Route 53
+Amazon Route 53 is a `DNS web service`. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS.  
+Route 53 connects user requests to internet applications running on AWS or on-premises.
+- You can `register` new domain names directly in Route 53
+- You can also `transfer` DNS records for existing domain names managed by other domain registrars
+- Enables you to `manage` all of your domain names within a single location
+
+### Example: How Amazon Route 53 and Amazon CloudFront deliver content
+1. A customer requests data from the application website.
+2. `Amazon Route 53` uses DNS resolution to identify corresponding IP address.
+3. `IP address` is sent back to the customer.
+4. The customer’s request is sent to the nearest edge location through `Amazon CloudFront`.
+5. Amazon CloudFront connects to the `Application Load Balancer`, which sends the incoming packet to an `Amazon EC2 instance`.
+<img width="600" alt="cf 53" src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/e3c637cd-3422-4db8-859a-f0a6d8bdf365">
