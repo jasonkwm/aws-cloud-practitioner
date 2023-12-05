@@ -23,11 +23,11 @@
 
 # Module 1
 
-### Cloud Computing
+## Cloud Computing
 
 [AWS Resource](https://explore.skillbuilder.aws/learn/course/134/play/93606/aws-cloud-practitioner-essentials)
 
-#### Deployment models for cloud computing
+### Deployment models for cloud computing
 
 When selecting a cloud strategy, a company must consider factors such as required cloud application components, preferred resource management tools, and any legacy IT infrastructure requirements.
 
