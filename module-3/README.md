@@ -2,7 +2,7 @@
 - [AWS Global Infrastructure](#aws-global-infrastructure)
   - [Selecting a Region](#selecting-a-region)
   - [Availability Zones](#availability-zones)
-- [Edge Locations (CDN)](#edge-locations-cdn)
+- [Edge Locations CDN](#edge-locations-cdn)
 - [How to Provision AWS Resources](#how-to-provision-aws-resources)
  
 # AWS Global Infrastructure
