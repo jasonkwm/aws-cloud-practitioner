@@ -3,7 +3,7 @@
   - [Instance Stores](#instance-stores)
   - [Amazon Elastic Block Store (Amazon EBS)](#amazon-elastic-block-store-amazon-ebs)
     - [Amazon EBS snapshots](#amazon-ebs-snapshots)
-
+- [Amazon Simple Storage Service (Amazon S3)](#amazon-simple-storage-service-amazon-s3)
 
 # Instance Stores and Amazon Elastic Block Store (Amazon EBS)
 
@@ -27,3 +27,5 @@ Block-level storage volumes behave like `physical hard drives`.
 <img width="600"  src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/bd9b5562-70da-43e9-b820-8875e08f2c1e"/>
 
 Incremental backups are different from full backups, in which all the data in a storage volume copies each time a backup occurs. The full backup includes data that has not changed since the most recent backup.
+
+# Amazon Simple Storage Service (Amazon S3)
