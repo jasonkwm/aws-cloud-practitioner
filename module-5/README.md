@@ -21,7 +21,7 @@ Block-level storage volumes behave like `physical hard drives`.
 - Take incremental backups of EBS volumes by creating Amazon EBS `snapshots`
 
 ### Amazon EBS snapshots
-1. An EBS snapshot is an incremental backup.
+1. An EBS snapshot is an `incremental backup`.
 2. This means that the `first backup` taken of a volume copies all the data
 3. For `subsequent backups`, only the blocks of data that have changed since the most recent snapshot are saved  
 <img width="600"  src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/bd9b5562-70da-43e9-b820-8875e08f2c1e"/>
