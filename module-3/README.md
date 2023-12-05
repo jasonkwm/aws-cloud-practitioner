@@ -56,5 +56,4 @@ Provide code and configuration settings, and Elastic Beanstalk deploys the resou
 ### AWS CloudFormation
 - Treat your infrastructure as code
 - Build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources
-- 
 - It determines the right operations to perform when managing your stack and rolls back changes automatically if it detects errors
