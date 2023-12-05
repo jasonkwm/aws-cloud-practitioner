@@ -7,7 +7,11 @@
   - [AWS Direct Connect](#aws-direct-connect)
 - [Subnets and Network Access Control Lists](#subnets-and-network-access-control-lists)
   - [Subnets](#subnets)
-  - 
+  - [Network traffic in a VPC](#network-traffic-in-a-vpc)
+  - [Network ACLs](#network-acls)
+    - [Stateless packet filtering](#stateless-packet-filtering)
+  - [Security groups](#security-groups)
+    - [Stateful packet filtering](#stateful-packet-filtering)
 # Connectivity to AWS
 
 ### Amazon Virtual Private Cloud (Amazon VPC)
