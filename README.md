@@ -19,6 +19,13 @@
     -   [Connectivity to AWS](./module-4#connectivity-to-aws)
     -   [Subnets and Network Access Control Lists](./module-4#subnets-and-network-access-control-lists)
     -   [Global Networking](./module-4#global-networking)
+-   [Module 5 ()](./module-5)
+    - [Instance Stores and Amazon Elastic Block Store (Amazon EBS)](./module-5#instance-stores-and-amazon-elastic-block-store-amazon-ebs)
+    - [Amazon Simple Storage Service (Amazon S3)](./module-5#amazon-simple-storage-service-amazon-s3)
+    - [Amazon Elastic File System (Amazon EFS)](amazon-elastic-file-system-amazon-efs)
+    - [Amazon Relational Database Service (Amazon RDS)](./module-5#amazon-relational-database-service-amazon-rds)
+    - [Amazon DynamoDB](./module-5#amazon-dynamodb)
+    - [Amazon Redshift](./module-5#amazon-redshift)
 -   [General QnA](./QnA)
 
 # Module 1
