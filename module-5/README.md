@@ -109,7 +109,7 @@ When selecting an Amazon S3 storage class, consider these two factors:
 
 # Amazon Elastic File System (Amazon EFS)
 `Scalable file system` used with *AWS Cloud* services and *on-premises* resources.  
-- *Amazon EFS* `grows and shrinks automatically`. It can `scale on demand` to `petabytes` without disrupting applications. 
+*Amazon EFS* `grows and shrinks automatically`. It can `scale on demand` to `petabytes` without disrupting applications. 
 
 
 ## File Storage
