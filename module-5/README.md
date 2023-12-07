@@ -19,6 +19,8 @@
   - [Comparing Amazon EBS and Amazon EFS](#comparing-amazon-ebs-and-amazon-efs)
 - [Amazon Relational Database Service (Amazon RDS)](#amazon-relational-database-service-amazon-rds)
   - [Relational databases](#relational-databases)
+  - [Amazon RDS database engines](#amazon-rds-database-engines)
+  - [Amazon Aurora](#amazon-aurora)
 # Instance Stores and Amazon Elastic Block Store (Amazon EBS)
 
 ## Instance Stores
@@ -143,9 +145,13 @@ Relational databases use `structured query language (SQL)` to store and query da
 ## Amazon RDS database engines
 **Amazon RDS** is available on `six database engines`, which `optimize` for `memory`, `performance`, or `input/output (I/O)`  
 Supported database engines include:
-- Amazon Aurora
-- PostgreSQL
-- MySQL
-- MariaDB
-- Oracle Database
-- Microsoft SQL Server
+- `Amazon Aurora`, `PostgreSQL`, `MySQL`, `MariaDB`, `Oracle Database`, `Microsoft SQL Server`
+
+## Amazon Aurora
+- Enterprise-class relational database
+- Compatible with `MySQL` and `PostgreSQL` relational databases
+- Up to `five times faster` than standard `MySQL` databases
+- Up to `three times faster` than standard `PostgreSQL` databases
+- Helps to `reduce your database costs` by reducing unnecessary input/output (I/O) operations, while ensuring that your database resources `remain reliable and available`
+- Consider Amazon Aurora if your `workloads` require `high availability`
+- It replicates `six copies` of your data across `three Availability Zones` and `continuously backs up` your data to **Amazon S3**
