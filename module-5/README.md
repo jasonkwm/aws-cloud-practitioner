@@ -4,7 +4,7 @@
   - [Amazon Elastic Block Store (Amazon EBS)](#amazon-elastic-block-store-amazon-ebs)
     - [Amazon EBS snapshots](#amazon-ebs-snapshots)
 - [Amazon Simple Storage Service (Amazon S3)](#amazon-simple-storage-service-amazon-s3)
-  - [Object storage](#object-storage)
+  - [Object Storage](#object-storage)
   - [Amazon S3 storage classes](#amazon-s3-storage-classes)
     - [S3 Standard](#s3-standard)
     - [S3 Standard-Infrequent Access (S3 Standard-IA)](#s3-standard-infrequent-access-s3-standard-ia)
@@ -14,7 +14,8 @@
     - [S3 Glacier Flexible Retrieval](#s3-glacier-flexible-retrieval)
     - [S3 Glacier Deep Archive](#s3-glacier-deep-archive)
     - [S3 Outposts](#s3-outposts)
-
+- [Amazon Elastic File System (Amazon EFS)](amazon-elastic-file-system-amazon-efs)
+  - [File Storage](#file-storage)
 # Instance Stores and Amazon Elastic Block Store (Amazon EBS)
 
 ## Instance Stores
@@ -46,7 +47,7 @@ Amazon S3 provides `Object-level storage`. Amazon S3 stores data as objects in b
 - You can also use the Amazon S3 `versioning` feature to track changes to your objects over time
 - You can `upload any type` of file to Amazon S3, such as images, videos, text files, and so on
 
-## Object storage
+## Object Storage
 In object storage, each object consists of `data`, `metadata`, and a `key`.  
 - The `data` might be an `image, video, text document, or any other type of file`
 - `Metadata` contains information about what the data is, how it is used, the object size, and so on
@@ -106,3 +107,17 @@ When selecting an Amazon S3 storage class, consider these two factors:
 - Store data `durably and redundantly` across `multiple devices and servers` on your *Outposts*
 - Works well for workloads with `local data residency requirements` that must satisfy demanding performance needs by keeping data close to on-premises applications
 
+# Amazon Elastic File System (Amazon EFS)
+`Scalable file system` used with *AWS Cloud* services and *on-premises* resources.  
+- *Amazon EFS* `grows and shrinks automatically`. It can `scale on demand` to `petabytes` without disrupting applications. 
+
+
+## File Storage
+In file storage, `multiple clients` (such as users, applications, servers, and so on) can `access data` that is stored in `shared file folders`.  
+`Storage server` uses **block storage** with a `local file system` to organize files. Clients `access data` through `file paths`.
+Compared to **block storage** and **object storage**, `file storage` is ideal for use cases in which a large number of `services and resources` need to `access` the `same data at the same time`.
+
+Comparing Amazon EBS and Amazon EFS
+
+|Amazon EBS|Amazon EFS|
+|Stores data in a `single Availability Zone`|Stores data in and across `multiple Availability Zones`|
