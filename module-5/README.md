@@ -24,6 +24,7 @@
 - [Amazon DynamoDB](#amazon-dynamodb)
   - [Non-relational Databases](#non-relational-databases)
 - [Amazon Redshift](#amazon-redshift)
+
 # Instance Stores and Amazon Elastic Block Store (Amazon EBS)
 
 ## Instance Stores
