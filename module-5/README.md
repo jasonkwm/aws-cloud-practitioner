@@ -16,6 +16,7 @@
     - [S3 Outposts](#s3-outposts)
 - [Amazon Elastic File System (Amazon EFS)](amazon-elastic-file-system-amazon-efs)
   - [File Storage](#file-storage)
+  - [Comparing Amazon EBS and Amazon EFS](#comparing-amazon-ebs-and-amazon-efs)
 # Instance Stores and Amazon Elastic Block Store (Amazon EBS)
 
 ## Instance Stores
