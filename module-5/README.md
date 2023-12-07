@@ -120,4 +120,5 @@ Compared to **block storage** and **object storage**, `file storage` is ideal fo
 Comparing Amazon EBS and Amazon EFS
 
 |Amazon EBS|Amazon EFS|
+|:---|:---|
 |Stores data in a `single Availability Zone`|Stores data in and across `multiple Availability Zones`|
