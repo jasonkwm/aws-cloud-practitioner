@@ -17,6 +17,8 @@
 - [Amazon Elastic File System (Amazon EFS)](amazon-elastic-file-system-amazon-efs)
   - [File Storage](#file-storage)
   - [Comparing Amazon EBS and Amazon EFS](#comparing-amazon-ebs-and-amazon-efs)
+- [Amazon Relational Database Service (Amazon RDS)](#amazon-relational-database-service-amazon-rds)
+  - [Relational databases](#relational-databases)
 # Instance Stores and Amazon Elastic Block Store (Amazon EBS)
 
 ## Instance Stores
@@ -125,3 +127,25 @@ Compared to **block storage** and **object storage**, `file storage` is ideal fo
 |Stores data in a `single Availability Zone`|Stores data in and across `multiple Availability Zones`|
 |`Amazon EC2`` instance and the `EBS volume`` must reside within the `same Availability Zone`|`Access data concurrently` from `all Availability Zones` in the Region where a file system is located|
 ||*on-premises* servers can access `Amazon EFS` using `AWS Direct Connect`|
+
+
+# Amazon Relational Database Service (Amazon RDS)
+**Amazon RDS** is a managed service that `automates tasks` such as `hardware provisioning, database setup, patching, and backups`
+- You can spend less time completing administrative tasks
+- Many Amazon RDS database engines offer:
+  -  Encryption at `rest` (protecting data while it is stored)
+  -  Encryption in `transit` (protecting data while it is being sent and received)
+
+## Relational databases
+A `relational database` stores information in `tabular form`.  
+Relational databases use `structured query language (SQL)` to store and query data.
+
+## Amazon RDS database engines
+**Amazon RDS** is available on `six database engines`, which `optimize` for `memory`, `performance`, or `input/output (I/O)`  
+Supported database engines include:
+- Amazon Aurora
+- PostgreSQL
+- MySQL
+- MariaDB
+- Oracle Database
+- Microsoft SQL Server
