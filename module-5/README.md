@@ -23,6 +23,7 @@
   - [Amazon Aurora](#amazon-aurora)
 - [Amazon DynamoDB](#amazon-dynamodb)
   - [Non-relational Databases](#non-relational-databases)
+- [Amazon Redshift](#amazon-redshift)
 # Instance Stores and Amazon Elastic Block Store (Amazon EBS)
 
 ## Instance Stores
@@ -160,8 +161,15 @@ Supported database engines include:
 
 
 # Amazon DynamoDB
-Amazon DynamoDB is a `key-value database service`. It delivers `single-digit millisecond` performance at any scale.
+- **Amazon DynamoDB** is a `key-value database service`. It delivers `single-digit millisecond` performance at any scale
+- *DynamoDB* is `serverless`, which means that you `do not` have to `provision, patch, or manage servers`
+- *DynamoDB* `automatically scales` to adjust for `changes in capacity` while `maintaining consistent performance`
+- Suitable choice for use cases that `require high performance while scaling`
 
 ## Non-relational Databases
 One type of structural approach for **nonrelational databases** is `key-value pairs`. With key-value pairs, data is organized into items (keys), and items have attributes (values).  
 You can `add or remove attributes` from items in the table at any time and `not every item` in the table has to have the `same attributes`
+
+# Amazon Redshift
+**Amazon Redshift** is a `data warehousing service` that you can use for `big data analytics`. It offers the ability to `collect data from many sources` and helps you to understand relationships and trends across your data.
+
