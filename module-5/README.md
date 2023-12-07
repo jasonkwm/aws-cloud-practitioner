@@ -21,6 +21,8 @@
   - [Relational databases](#relational-databases)
   - [Amazon RDS database engines](#amazon-rds-database-engines)
   - [Amazon Aurora](#amazon-aurora)
+- [Amazon DynamoDB](#amazon-dynamodb)
+  - [Non-relational Databases](#non-relational-databases)
 # Instance Stores and Amazon Elastic Block Store (Amazon EBS)
 
 ## Instance Stores
@@ -155,3 +157,11 @@ Supported database engines include:
 - Helps to `reduce your database costs` by reducing unnecessary input/output (I/O) operations, while ensuring that your database resources `remain reliable and available`
 - Consider Amazon Aurora if your `workloads` require `high availability`
 - It replicates `six copies` of your data across `three Availability Zones` and `continuously backs up` your data to **Amazon S3**
+
+
+# Amazon DynamoDB
+Amazon DynamoDB is a `key-value database service`. It delivers `single-digit millisecond` performance at any scale.
+
+## Non-relational Databases
+One type of structural approach for **nonrelational databases** is `key-value pairs`. With key-value pairs, data is organized into items (keys), and items have attributes (values).  
+You can `add or remove attributes` from items in the table at any time and `not every item` in the table has to have the `same attributes`
