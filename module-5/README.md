@@ -122,5 +122,5 @@ Comparing Amazon EBS and Amazon EFS
 |Amazon EBS|Amazon EFS|
 |:---|:---|
 |Stores data in a `single Availability Zone`|Stores data in and across `multiple Availability Zones`|
-|`Amazon EC2`` instance and the `EBS volume`` must reside within the `same Availability Zone`|`Access data concurrently` from `all Availability Zones` in the Region where a file system is located  
-*on-premises* servers can access `Amazon EFS` using `AWS Direct Connect`|
+|`Amazon EC2`` instance and the `EBS volume`` must reside within the `same Availability Zone`|`Access data concurrently` from `all Availability Zones` in the Region where a file system is located|
+||*on-premises* servers can access `Amazon EFS` using `AWS Direct Connect`|
