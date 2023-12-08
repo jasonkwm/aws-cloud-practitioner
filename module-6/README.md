@@ -15,10 +15,13 @@
     - [AWS Artifact Agreements](#)
     - [AWS Artifact Reports](#)
   - [Customer Compliance Center](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+- [Denial-of-Service Attacks](#)
+  - [AWS Shield](#)
+  - [AWS Shield Standard](#)
+  - [AWS Shield Advanced](#)
+- [Additional Security Services](#)
+  - [AWS Key Management Service (AWS KMS)](#)
+  - [AWS Web Application Firewall (WAF)](#)
 - [](#)
 - [](#)
 
@@ -133,3 +136,55 @@ The **Customer Compliance Center** contains resources to help you `learn more` a
   - An overview of AWS risk and compliance
   - An auditing security checklist
 - Customer Compliance Center includes an `auditor learning path` designed for `individuals` in `auditing`, `compliance`, and `legal roles` who want to `learn more`
+
+# Denial-of-Service Attacks
+A `denial-of-service (DoS)` attack is a `deliberate attempt` to make a website or application `unavailable to users`.
+
+### Distributed denial-of-service attacks
+In a `distributed denial-of-service (DDoS)` attack, multiple sources are used to start an attack that aims to make a `website or application unavailable`
+
+## AWS Shield
+AWS Shield is a service that `protects applications against DDoS attacks`.  
+AWS Shield provides `two levels` of protection: *Standard* and *Advanced*
+
+### AWS Shield Standard
+- `automatically` protects all AWS customers at `no cost`
+- It `protects` your AWS resources from the `most common`, `frequently occurring` types of **DDoS** attacks
+- **AWS Shield Standard** uses a variety of `analysis techniques` to `detect malicious traffic` in real time and `automatically mitigates` it.
+
+### AWS Shield Advanced
+- A `paid service` that provides detailed `attack diagnostics` and the ability to `detect and mitigate sophisticated` **DDoS** attacks.
+- `Integrates` with other services such as **Amazon CloudFront**, **Amazon Route 53**, and **Elastic Load Balancing**
+- You can integrate **AWS Shield** with **AWS Web Application Firewall (WAF)** by writing `custom rules` to mitigate complex **DDoS** attacks.
+
+# Additional Security Services
+## AWS Key Management Service (AWS KMS)
+- Enables you to perform `encryption operations` through the use of `cryptographic keys`
+- You can use **AWS KMS** to `create`, `manage`, and use `cryptographic keys`
+- `Control` the `use of keys` across a wide range of services and in your applications
+- `Choose` the `specific levels` of `access control` that you need for your keys
+- Specify which IAM users and roles are able to `manage keys`
+- Temporarily `disable keys` so that they are no longer in use by anyone
+- Your keys `never leave` **AWS KMS**, and you are `always in control` of them
+
+## AWS Web Application Firewall (WAF)
+- `Web application firewall` that lets you `monitor network requests` that come into your web applications
+- **AWS WAF** works together with **Amazon CloudFront** and an **Application Load Balancer**
+- **AWS WAF** uses a `web access control list (ACL)` to protect your AWS resources
+- Configure the `web ACL` to allow all requests except those from the IP addresses that you have specified
+- Requests are checked against the list of rules that you have configured in the web ACL
+
+## Amazon Inspector
+- Amazon Inspector helps to `improve` the `security and compliance` of applications by running `automated security assessments`
+- `Checks applications` for `security vulnerabilities` and deviations from `security best practices`, such as open access to Amazon EC2 instances and installations of vulnerable software versions
+- It `provides` you with a `list of security findings`
+- List prioritizes by `severity level`, including a `detailed description` of each security issue and a `recommendation` for how to fix it
+- **AWS** `does not guarantee` that following the provided recommendations `resolves every potential security issue`
+
+## Amazon GuardDuty
+- Provides `intelligent threat detection` for your **AWS infrastructure** and resources
+- Identifies threats by `continuously monitoring` the `network activity` and `account behavior` within your **AWS environment**
+- You `do not` have to `deploy or manage` any additional security software
+- **GuardDuty** `continuously analyzes` data from multiple **AWS sources**, including **VPC Flow Logs** and **DNS logs**
+- You can `review` detailed findings about them from the **AWS Management Console**
+- You can also `configure AWS Lambda` functions to `take remediation steps automatically` in response to GuardDuty’s security findings
