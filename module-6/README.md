@@ -12,7 +12,9 @@
   - [Organizational units (OU)](#)
 - [Compliance](#)
   - [AWS Artifact](#)
-- [](#)
+    - [AWS Artifact Agreements](#)
+    - [AWS Artifact Reports](#)
+  - [Customer Compliance Center](#)
 - [](#)
 - [](#)
 - [](#)
@@ -125,3 +127,9 @@ In **AWS Artifact Agreements**, you can `review`, `accept`, and `manage agreemen
 
 ## Customer Compliance Center
 The **Customer Compliance Center** contains resources to help you `learn more` about **AWS compliance**. 
+- You can read `customer compliance stories` to discover how companies in regulated industries have `solved various compliance`, `governance`, and `audit challenges`
+- You can also `access compliance whitepapers` and `documentation` on topics such as:
+  - AWS answers to key compliance questions
+  - An overview of AWS risk and compliance
+  - An auditing security checklist
+- Customer Compliance Center includes an `auditor learning path` designed for `individuals` in `auditing`, `compliance`, and `legal roles` who want to `learn more`
