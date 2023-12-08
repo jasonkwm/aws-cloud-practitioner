@@ -79,7 +79,7 @@ Enable you to `customize users’ levels` of access to resources.
 *This example IAM policy allows permission to access the objects in the Amazon S3 bucket with ID: AWSDOC-EXAMPLE-BUCKET*
 
 ## IAM groups
-An IAM group is a `collection of IAM users`. When you assign an `IAM policy` to a group, `all users` in the group are `granted permissions` specified by the policy.
+An IAM group is a `collection of IAM users`. When you assign an `IAM policy` to a group, `all users` in the group are `granted permissions` specified by the policy.  
 <img width="300" alt="iam group" src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/0e31d3dc-6be0-4ab9-894b-90a42e877224">
 
 ## IAM roles
