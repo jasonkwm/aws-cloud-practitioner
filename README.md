@@ -26,6 +26,15 @@
     - [Amazon Relational Database Service (Amazon RDS)](./module-5#amazon-relational-database-service-amazon-rds)
     - [Amazon DynamoDB](./module-5#amazon-dynamodb)
     - [Amazon Redshift](./module-5#amazon-redshift)
+- [Module 6 (Security)][./module-6]
+    - [AWS Shared Responsibility Model](./module-6#aws-shared-responsibility-model)
+    - [AWS Identity and Access Management (IAM)](./module-6#aws-identity-and-access-management-iam)
+    - [AWS Organizations](./module-6#aws-organizations)
+    - [Compliance](./module-6#compliance)
+        - [AWS Artifact](./module-6#aws-artifact)
+        - [Customer Compliance Center](./module-6#customer-compliance-center)
+    - [Denial-of-Service Attacks](./module-6#denial-of-service-attacks)
+    - [Additional Security Services](./module-6#additional-security-services)
 -   [General QnA](./QnA)
 
 # Module 1
