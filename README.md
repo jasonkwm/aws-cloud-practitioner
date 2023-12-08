@@ -31,8 +31,6 @@
     - [AWS Identity and Access Management (IAM)](./module-6#aws-identity-and-access-management-iam)
     - [AWS Organizations](./module-6#aws-organizations)
     - [Compliance](./module-6#compliance)
-        - [AWS Artifact](./module-6#aws-artifact)
-        - [Customer Compliance Center](./module-6#customer-compliance-center)
     - [Denial-of-Service Attacks](./module-6#denial-of-service-attacks)
     - [Additional Security Services](./module-6#additional-security-services)
 -   [General QnA](./QnA)
