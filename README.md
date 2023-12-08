@@ -26,6 +26,8 @@
     - [Amazon Relational Database Service (Amazon RDS)](./module-5#amazon-relational-database-service-amazon-rds)
     - [Amazon DynamoDB](./module-5#amazon-dynamodb)
     - [Amazon Redshift](./module-5#amazon-redshift)
+    - [AWS Database Migration Service (AWS DMS)](./module-5#aws-database-migration-service-aws-dms)
+    - [Additional database services](./module-5#additional-database-services)
 - [Module 6 (Security)](./module-6)
     - [AWS Shared Responsibility Model](./module-6#aws-shared-responsibility-model)
     - [AWS Identity and Access Management (IAM)](./module-6#aws-identity-and-access-management-iam)
