@@ -33,6 +33,10 @@
     - [Compliance](./module-6#compliance)
     - [Denial-of-Service Attacks](./module-6#denial-of-service-attacks)
     - [Additional Security Services](./module-6#additional-security-services)
+- [Module 7 (Monitoring and Analytics)](./module-7)
+- [Module 8 (Pricing and Support)](./module-8)
+- [Module 9 (Migration and Innovation)](./module-9)
+- [Module 10 (The Cloud Journey)](./module-10)
 -   [General QnA](./QnA)
 
 # Module 1
