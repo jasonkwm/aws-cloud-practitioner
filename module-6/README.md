@@ -21,7 +21,7 @@
   - [AWS Shield Advanced](#aws-shield-advanced)
 - [Additional Security Services](#additional-security-services)
   - [AWS Key Management Service (AWS KMS)](#aws-key-management-service-aws-kms)
-  - [AWS Web Application Firewall (WAF)](#aws-web-application-firewall-waf)
+  - [AWS Web Application Firewall (AWS WAF)](#aws-web-application-firewall-aws-waf)
 
 
 
@@ -165,7 +165,7 @@ AWS Shield provides `two levels` of protection: *Standard* and *Advanced*
 - Temporarily `disable keys` so that they are no longer in use by anyone
 - Your keys `never leave` **AWS KMS**, and you are `always in control` of them
 
-## AWS Web Application Firewall (WAF)
+## AWS Web Application Firewall (AWS WAF)
 - `Web application firewall` that lets you `monitor network requests` that come into your web applications
 - **AWS WAF** works together with **Amazon CloudFront** and an **Application Load Balancer**
 - **AWS WAF** uses a `web access control list (ACL)` to protect your AWS resources
