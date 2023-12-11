@@ -6,7 +6,7 @@
   - [Performance efficiency](#)
   - [Cost optimization](#)
   - [Sustainability](#)
-- [](#)
+- [Benefits of the AWS Cloud](#)
 - [](#)
 - [](#)
 - [](#)
@@ -55,3 +55,22 @@
   - `Anticipate and adopt` new, more efficient hardware and software offerings
   - Use `managed services`
   - Reduce the `downstream impact` of your cloud workloads
+
+# Benefits of the AWS Cloud
+## Advantages of cloud computing
+**AWS Cloud** offers many benefits over computing in `on-premises` or `hybrid environments`  
+
+**Six advantages of cloud computing:**
+- Trade `upfront expense` for `variable expense`
+  - No need buy hardware, only use and pay for what u need 
+- Benefit from `massive economies of scale`
+  - More people use, cheaper service becomes
+- Stop `guessing capacity`
+  - If u need only u buy more power
+- Increase `speed and agility`
+  - It says here more flexible, more time to do other stuff
+- Stop spending money `running and maintaining data centers`
+  - No need buy aircond and other hard stuff to run server, no need maintenance
+- Go `global in minutes`
+  - AWS server around the world, easy to launch at murica and singapo
+
