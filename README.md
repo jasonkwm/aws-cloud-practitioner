@@ -49,6 +49,9 @@
     - [AWS Support Plans](./module-8#aws-support-plans)
     - [AWS Marketplace](./module-8#aws-marketplace)
 - [Module 9 (Migration and Innovation)](./module-9)
+    - [Migration Strategies](./module-9#migration-strategies)
+    - [AWS Snow Family](./module-9#aws-snow-family)
+    - [Innovation with AWS](./module-9#innovation-with-aws)
 - [Module 10 (The Cloud Journey)](./module-10)
 -   [General QnA](./QnA)
 
