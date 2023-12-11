@@ -53,6 +53,8 @@
     - [AWS Snow Family](./module-9#aws-snow-family)
     - [Innovation with AWS](./module-9#innovation-with-aws)
 - [Module 10 (The Cloud Journey)](./module-10)
+    - [The AWS Well-Architected Framework](./module-10#the-aws-well-architected-framework)
+    - [Benefits of the AWS Cloud](./module-10#benefits-of-the-aws-cloud)
 -   [General QnA](./QnA)
 
 # Module 1
