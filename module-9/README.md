@@ -16,7 +16,7 @@
     - [Repurchasing](#)
     - [Retaining](#)
     - [Retiring](#)
-- [](#)
+- [AWS Snow Family](#)
 - [](#)
 - [](#)
 - [](#)
@@ -103,3 +103,39 @@
 
 ### Retiring
 - Process of `removing applications` that are `no longer needed`
+
+# AWS Snow Family
+- A `collection of physical devices` that help to `physically transport` up to exabytes of `data into and out of AWS`
+- Composed of `AWS Snowcone`, `AWS Snowball`, and `AWS Snowmobile`
+- These devices `offer different capacity` points, and most include built-in computing capabilities
+- **AWS** `owns and manages` the **Snow Family** devices and integrates with **AWS** `security`, `monitoring`, `storage management`, and `computing capabilities`
+
+### AWS Snowcone
+- A small, rugged, and secure `edge computing` and `data transfer device`
+- Features `2 CPUs`, `4 GB of memory`, and `up to 14 TB` of `usable storage` 
+### AWS Snowball
+Offers `two types of devices`:
+#### Snowball Edge Storage Optimized: 
+- `Well suited` for `large-scale data migrations` and `recurring transfer workflows`, in addition to `local computing with higher capacity needs`
+- **Storage**:
+  - `80 TB of hard disk drive (HDD)` capacity for `block volumes` and **Amazon S3** compatible `object storage`
+  - `1 TB of SATA solid state drive (SSD)` for `block volumes`
+- **Compute**:
+- `40 vCPUs`
+- `80 GiB of memory` to support **Amazon EC2** `sbe1` instances (equivalent to `C5`)
+#### Snowball Edge Compute Optimized
+- `Powerful computing resources` for use cases such as `machine learning`, `full motion video analysis`, `analytics`, and `local computing stacks`
+- **Storage**:
+  - `80-TB usable HDD` capacity for **Amazon S3** compatible `object storage` or **Amazon EBS** compatible `block volumes`
+  - `28 TB of usable NVMe SSD` capacity for **Amazon EBS** compatible `block volumes`
+- **Compute**:
+  - `104 vCPUs`
+  - `416 GiB of memory`
+  - `optional NVIDIA Tesla V100 GPU`
+  - Devices run **Amazon EC2** `sbe-c` and `sbe-g` instances, which are equivalent to `C5`, `M5a`, `G3`, and `P3` instances
+
+### AWS Snowmobile
+- An `exabyte-scale data transfer service` used to move large amounts of data to **AWS**
+- Transfer up to `100 petabytes` of data per Snowmobile
+- `45-foot long` ruggedized `shipping container`, pulled by a `semi trailer truck`
+### AWS Snowmobile
