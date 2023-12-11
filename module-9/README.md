@@ -104,6 +104,8 @@
 - These devices `offer different capacity` points, and most include built-in computing capabilities
 - **AWS** `owns and manages` the **Snow Family** devices and integrates with **AWS** `security`, `monitoring`, `storage management`, and `computing capabilities`
 
+<img width="600" alt="snow family image" src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/0c734aa5-42a2-4ca9-90b8-be8a9eb9fb09"/>
+
 ### AWS Snowcone
 - A small, rugged, and secure `edge computing` and `data transfer device`
 - Features `2 CPUs`, `4 GB of memory`, and `up to 14 TB` of `usable storage` 
