@@ -1,29 +1,27 @@
 # Table of Content
-- [AWS Free Tier](#)
-  - [Always Free](#)
-  - [12 Months Free](#)
-  - [Trials](#)
-- [AWS Pricing Concepts](#)
-  - [How AWS pricing works](#)
-    - [Pay for what you use](#)
-    - [Pay less when you reserve](#)
-    - [Pay less with volume-based discounts when you use more](#)
-  - [AWS Pricing Calculator](#)
-- [Billing Dashboard](#)
-- [Consolidated Billing](#)
-- [AWS Budgets](#)
-- [AWS Cost Explorer](#)
-- [AWS Support Plans](#)
-  - [Basic Support](#)
-  - [Developer Support](#)
-  - [Business Support](#)
-  - [Enterprise On-Ramp Support](#)
-  - [Enterprise Support](#)
-  - [Technical Account Manager (TAM)](#)
-- [AWS Marketplace](#)
-- [](#)
-- [](#)
-
+- [AWS Free Tier](#aws-free-tier)
+  - [Always Free](#always-free)
+  - [12 Months Free](#12-months-free)
+  - [Trials](#trials)
+- [AWS Pricing Concepts](#aws-pricing-concepts)
+  - [How AWS pricing works](#how-aws-pricing-works)
+    - [Pay for what you use](#pay-for-what-you-use)
+    - [Pay less when you reserve](#pay-less-when-you-reserve)
+    - [Pay less with volume-based discounts when you use more](#pay-less-with-volume-based-discounts-when-you-use-more)
+  - [AWS Pricing Calculator](#aws-pricing-calculator)
+- [Billing Dashboard](#billing-dashboard)
+- [Consolidated Billing](#consolidated-billing)
+- [AWS Budgets](#aws-budgets)
+- [AWS Cost Explorer](#aws-cost-explorer)
+- [AWS Support Plans](#aws-support-plans)
+  - [Basic Support](#basic-support)
+  - [Developer Support](#developer-support)
+  - [Business Support](#business-support)
+  - [Enterprise On-Ramp Support](#enterprise-on-ramp-support)
+  - [Enterprise Support](#enterprise-support)
+  - [Technical Account Manager (TAM)](#technical-account-manager-tam)
+- [AWS Marketplace](#aws-marketplace)
+  - [AWS Marketplace categories](#aws-marketplace-categories)
 
 
 # AWS Free Tier
@@ -163,4 +161,10 @@ The `Enterprise On-Ramp` and `Enterprise Support plans` include access to a **Te
 - **TAMs** provide `expert engineering guidance`, help you `design solutions` that `efficiently integrate AWS services`, assist with `cost-effective` and `resilient architectures`, and `provide direct access` to **AWS programs** and a broad community of experts
 
 # AWS Marketplace
-A digital catalog that includes thousands of software listings from independent software vendors
+- A `digital catalog` that includes thousands of `software listings` from `independent software vendors`
+- You can use **AWS Marketplace** to `find`, `test`, and `buy software` that runs on **AWS**
+- For `each listing` you can access `detailed information` on `pricing options`, `available support`, and `reviews` from other **AWS customers**
+- Explore `software solutions` by `industry` and `use case`
+
+### AWS Marketplace categories
+<img width="650" alt="aws cost explorer" src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/677b0736-d1c2-4908-aa05-e6e3d17ba9a0">
