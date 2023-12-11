@@ -13,8 +13,21 @@
     - [AWS Lambda](#)
     - [Amazon EC2](#)
     - [Amazon S3](#)
+- [Billing Dashboard](#)
+- [Consolidated Billing](#)
+- [AWS Budgets](#)
+- [AWS Cost Explorer](#)
+- [AWS Support Plans](#)
+  - [Basic Support](#)
+  - [Developer Support](#)
+  - [Business Support](#)
+  - [Enterprise On-Ramp Support](#)
+  - [Enterprise Support](#)
+  - [Technical Account Manager (TAM)](#)
+- [AWS Marketplace](#)
 - [](#)
 - [](#)
+
 
 
 # AWS Free Tier
@@ -56,10 +69,102 @@ Some services offer `tiered pricing`, so the per-unit cost is `incrementally low
 - `Organize` your AWS estimates `by groups` that you define
 - When you have `created an estimate`, you can `save it` and `generate a link` to `share it` with others
 
-## AWS pricing examples
+# Billing Dashboard
+Pay your AWS bill, monitor your usage, and analyze and control your costs.
+- `Compare` your `current` `month-to-date balance` with the `previous` month, and get a `forecast` of the `next` month based on current usage
+- View `month-to-date spend` by service
+- View `Free Tier usage` by service
+- Access `Cost Explorer` and `create budgets`
+- Purchase and manage `Savings Plans`
+- `Publish` AWS Cost and Usage `Reports`
 
-### AWS Lambda
+# Consolidated Billing
 
-### Amazon EC2
+The **consolidated billing** feature of **AWS Organizations** enables you to receive a `single bill` for `all AWS accounts` in your organization.
+- You can `easily track` the `combined costs` of all the `linked accounts` in your organization
+- The `default maximum number of accounts` allowed for an organization is `4`, but you can `contact AWS Support` to `increase your quota`, if needed
+- `Review itemized charges` incurred by `each account` on your `monthly bill`
+- Have greater `transparency` into your organization’s accounts while still maintaining the convenience of receiving a single monthly bill
+- `Share bulk discount` pricing, **Savings Plans**, and **Reserved Instances** across the accounts in your organization
 
-### Amazon S3
+
+# AWS Budgets
+- `Create budgets` to plan your `service usage`, `service costs`, and `instance reservations`
+- `Information` in **AWS Budgets** `updates` three times a day
+- Helps you to `accurately determine` how close your `usage` is to your `budgeted amounts` or to the `AWS Free Tier limits`
+- You can also `set custom alerts` when your `usage exceeds` (or is forecasted to exceed) the `budgeted amount`
+<img width="650" alt="example of aws budgets" src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/2872bff5-a3c0-4861-8c84-18071e0aaff7"/>
+
+# AWS Cost Explorer
+- A tool that lets you `visualize`, `understand`, and `manage` your `AWS costs` and `usage over time`
+- **AWS Cost Explorer** includes a `default report` of the `costs and usage` for your `top five cost-accruing` **AWS services**
+- `Apply custom filters` and `groups` to analyze your data. For **example**, you can view `resource usage` at the `hourly level`
+- By `analyzing` your **AWS costs** over time, you can `make informed decisions` about `future costs` and how to `plan your budgets`
+<img width="529" alt="aws cost explorer" src="https://github.com/jasonkwm/aws-cloud-practitioner/assets/32697686/6651975c-3141-44f0-bebe-05f5ea0845f3">
+
+# AWS Support Plans
+**AWS** offers `four different` **Support plans** to help you `troubleshoot issues`, `lower costs`, and `efficiently` use **AWS services**.  
+You can `choose` from the following **Support plans** to meet your company’s needs:  
+- `Basic`, `Developer`, `Business`, `Enterprise On-Ramp`, `Enterprise`
+
+The `Developer`, `Business`, `Enterprise On-Ramp`, and `Enterprise Support` plans have `pay-by-the-month pricing` and require `no long-term contracts`.  
+In general, for `pricing`, the `Developer plan` has the `lowest cost`, the `Business` and `Enterprise On-Ramp plans` are in the `middle`, and the `Enterprise plan` has the `highest cost`.
+
+## Basic Support
+- `Free for all` **AWS customers**
+- Includes access to `whitepapers`, `documentation`, and `support communities`
+- You can also `contact AWS` for `billing questions` and `service limit increases`
+- Have `access` to a `limited selection` of **AWS Trusted Advisor** checks
+- You can use the **AWS Personal Health Dashboard**, a tool that `provides alerts` and `remediation guidance` when **AWS** is `experiencing events` that may affect you
+
+## Developer Support
+**Developer Support** plan have `access to features` such as:
+- `Best practice` guidance
+- Client-side `diagnostic` tools
+- Building-block `architecture support`, which consists of guidance for `how to use` `AWS offerings`, `features`, and `services together`
+
+## Business Support
+**Business Support** plan have `access to additional features`, including: 
+- `Use-case guidance` to identify `AWS offerings`, `features`, and `services` that can `best support` your specific needs
+- All **AWS Trusted Advisor** checks
+- `Limited support` for `third-party software`, such as common `operating systems` and `application stack components`
+
+## Enterprise On-Ramp Support
+`All the features` included in the `Basic`, `Developer`, and `Business Support plans`  
+**Enterprise On-Ramp Support** plan also have access to:
+- A pool of `Technical Account Managers` to `provide proactive guidance` and `coordinate access` to programs and **AWS experts**
+- A `Cost Optimization workshop` (*one per year*)
+- A `Concierge support team` for `billing` and `account assistance`
+- Tools to `monitor costs` and `performance` through **Trusted Advisor** and **Health API/Dashboard**
+
+**Enterprise On-Ramp Support** plan also `provides access` to a specific set of `proactive support services`, which are provided by a pool of `Technical Account Managers`.  
+- `Consultative review` and `architecture guidance` (*one per year*)
+- `Infrastructure Event Management` support (*one per year*)
+- Support `automation workflows`
+- *30 minutes or less* `response time` for `business-critical issues`
+
+
+## Enterprise Support
+`All features` included in the `Basic`, `Developer`, `Business`, and `Enterprise On-Ramp` support plans.  
+`Enterprise Support` also have access to:
+- A designated `Technical Account Manager` to provide `proactive guidance` and `coordinate access` to programs and **AWS experts**
+- A `Concierge support team` for `billing` and `account assistance`
+- `Operations Reviews` and tools to `monitor health`
+- `Training` and `Game Days` to drive `innovation`
+- Tools to `monitor costs` and `performance` through **Trusted Advisor** and **Health API/Dashboard**
+
+Provides `full access` to designated **Technical Account Manager**:
+- `Consultative review` and `architecture guidance`
+- `Infrastructure Event Management` support
+- `Cost Optimization Workshop` and `tools`
+- Support `automation workflows`
+- *15 minutes or less* `response time` for `business-critical issues`
+
+## Technical Account Manager (TAM)
+The `Enterprise On-Ramp` and `Enterprise Support plans` include access to a **Technical Account Manager (TAM)**.  
+- **TAM** is your `primary point of contact` at **AWS**
+- **TAM** `educates`, `empowers`, and `evolves` your cloud journey across the full range of **AWS services**
+- **TAMs** provide `expert engineering guidance`, help you `design solutions` that `efficiently integrate AWS services`, assist with `cost-effective` and `resilient architectures`, and `provide direct access` to **AWS programs** and a broad community of experts
+
+# AWS Marketplace
+A digital catalog that includes thousands of software listings from independent software vendors
