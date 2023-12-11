@@ -17,6 +17,11 @@
     - [Retaining](#)
     - [Retiring](#)
 - [AWS Snow Family](#)
+  - [AWS Snowcone](#)
+  - [AWS Snowball](#)
+    - [Snowball Edge Storage Optimized](#)
+    - [Snowball Edge Compute Optimized](#)
+  - [AWS Snowmobile](#)
 - [Innovation with AWS](#)
 - [](#)
 - [](#)
@@ -138,3 +143,24 @@ Offers `two types of devices`:
 - An `exabyte-scale data transfer service` used to move large amounts of data to **AWS**
 - Transfer up to `100 petabytes` of data per Snowmobile
 - `45-foot long` ruggedized `shipping container`, pulled by a `semi trailer truck`
+
+# Innovation with AWS
+Consider some of the `paths you might explore` in the future as you continue on your `cloud journey`. 
+
+## Serverless Applications
+- Serverless refers to applications that `don’t require` you to `provision`, `maintain`, or `administer servers`
+- Don’t need to worry about `fault tolerance` or `availability`
+- **AWS Lambda** is an example of a service that you can use to `run serverless applications`
+- Bypass the need to manage a fleet of servers
+- Enables your developers to `focus` on their `core product` instead of managing and operating servers
+
+## Artificial Intelligence
+**AWS** offers a   variety of services   powered by   artificial intelligence (AI)`.
+For example, you can perform the following tasks:
+- `Convert speech to text` with **Amazon Transcribe**
+- `Discover patterns in text` with **Amazon Comprehend**
+- `Identify potentially fraudulent online activities` with **Amazon Fraud Detector**
+- `Build voice and text chatbots` with **Amazon Lex**
+
+## Machine Learning
+**AWS** offers **Amazon SageMaker** to remove the difficult work from the process and `empower you to build`, `train`, and `deploy ML models quickly`.
