@@ -8,8 +8,14 @@
     - [Platform Perspective](#platform-perspective)
     - [Security Perspective](#security-perspective)
     - [Operations Perspective](#operations-perspective)
-- [](#)
-- [](#)
+- [Migration Strategies](#)
+  - [6 strategies for migration](#)
+    - [Rehosting](#)
+    - [Replatforming](#)
+    - [Refactoring/re-architecting](#)
+    - [Repurchasing](#)
+    - [Retaining](#)
+    - [Retiring](#)
 - [](#)
 - [](#)
 - [](#)
@@ -72,3 +78,28 @@
 - `Helps stakeholders` define current `operating procedures` and identify the `process changes` and `training needed` to implement `successful cloud adoption`
 - `Common roles` in the **Operations Perspective** include:
 - `IT operations managers`, `IT support managers`
+
+# Migration Strategies
+## 6 strategies for migration
+`Six` of the most common `migration strategies` that you can implement are:
+- `Rehosting`, `Replatforming`, `Refactoring/re-architecting`, `Repurchasing`, `Retaining`, `Retiring`
+
+### Rehosting
+- Also known as `lift-and-shift` involves `moving applications without changes`
+
+### Replatforming
+- Also known as `lift, tinker, and shift,` involves making a `few cloud optimizations` to realize a `tangible benefit`
+- Optimization` is achieved `without changing` the `core architecture` of the application
+
+### Refactoring/re-architecting
+- Involves `reimagining how` an application is `architected and developed` by using `cloud-native features`
+- Driven by a **strong business need** to `add features`, `scale`, or `performance` that would otherwise be difficult to achieve in the `application’s existing environment`
+
+### Repurchasing
+- `Moving` from a `traditional license` to a `software-as-a-service` model
+### Retaining
+- Keeping applications that are `critical` for the business in the `source environment`
+- Include applications that `require major refactoring` before they can be `migrated`, or, work that can be postponed until a later time
+
+### Retiring
+- Process of `removing applications` that are `no longer needed`
