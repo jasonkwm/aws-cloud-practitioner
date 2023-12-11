@@ -1,18 +1,14 @@
 # Table of Contents
-- [The AWS Well-Architected Framework](#)
-  - [Operational excellence](#)
-  - [Security](#)
-  - [Reliability](#)
-  - [Performance efficiency](#)
-  - [Cost optimization](#)
-  - [Sustainability](#)
-- [Benefits of the AWS Cloud](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+- [The AWS Well-Architected Framework](#the-aws-well-architected-framework)
+  - [Operational excellence](#operational-excellence)
+  - [Security](#security)
+  - [Reliability](#reliability)
+  - [Performance efficiency](#performance-efficiency)
+  - [Cost optimization](#cost-optimization)
+  - [Sustainability](#sustainability)
+- [Benefits of the AWS Cloud](#benefits-of-the-aws-cloud)
+  - [Advantages of cloud computing](#advantages-of-cloud-computing)
+  - [Six advantages of cloud computing](#six-advantages-of-cloud-computing)
 
 # The AWS Well-Architected Framework
 - Helps you understand `how to design and operate` `reliable`, `secure`, `efficient`, and `cost-effective systems` in the **AWS Cloud**
@@ -60,7 +56,7 @@
 ## Advantages of cloud computing
 **AWS Cloud** offers many benefits over computing in `on-premises` or `hybrid environments`  
 
-**Six advantages of cloud computing:**
+#### Six advantages of cloud computing:
 - Trade `upfront expense` for `variable expense`
   - No need buy hardware, only use and pay for what u need 
 - Benefit from `massive economies of scale`
